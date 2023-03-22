@@ -1,0 +1,50 @@
+#hero {
+    background-image: url("../images/02-portfolio-3.jpg");
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    background-image: url("../images/02-portfolio-4.jpg");
+    }
+    
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    }
+    
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    /* background-image: url("../images/02-hero-bg.jpg"); */
+    }
+    
+.card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    }
+    
+.card-link {
+    display: inline-block;
+    margin-right: 0.5rem;
+    color: #007bff;
+    text-decoration: none;
+    }
+    
+.card-link:hover {
+    text-decoration: underline;
+    }
+    
+.btn {
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: box-shadow 0.2s ease-in-out;
+    }
+    
+.btn:hover {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    }
